@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Угадай число</title>
+    <link rel="shortcut icon" href="data/title.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="120x120" href="data/title.ico">
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="solo test">
+                <h1 class="test">Задайте границу загаданного числа</h1>
+                <div>
+                    <caption class="defolt-gran">Границы по умолчанию: 20 --- 100</caption>
+                </div>
+                <caption>Левая граница</caption>
+                <input class="solo test left-gran">
+                <caption>Правая граница</caption>
+                <input class="solo test right-gran">
+                <button class="solo test gran-value">Задать</button>
+                <div>
+                    <span class="finally-gran">Ваши границы: 20 --- 100</span>
+                </div>
+            </div>
+
+
+            <div class="solo test">
+                <h1 class="test">Загадайте число</h1>
+                <button class="test random-num">Загадать</button>
+            </div>
+
+
+            <div class="solo test">
+                <h1 class="test">Введите число</h1>
+                <input class="test user-num">
+            </div>
+
+
+            <div class="solo test">
+                <h1 class="test">Ваше число</h1>
+                <button class="test solo verif-num">Проверить</button>
+                <output class="test solo num-user-out">***</output>
+            </div>
+
+
+            <div class="solo test">
+                <h1 class="test">Подсказка</h1>
+                <output class="test solo pod">***</output>
+            </div>
+            
+
+            <div class="solo test">
+                <h1 class="test">Число попыток</h1>
+                <output class="test solo try-count">0</output>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

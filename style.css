@@ -1,0 +1,43 @@
+body {
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 750px;
+    height: 100%;
+}
+
+.test {
+    margin: 10px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.solo {
+    border: 1px solid green;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    width: 100px;
+}
+
+output {
+    text-align: center;
+    width: 100px;
+}
